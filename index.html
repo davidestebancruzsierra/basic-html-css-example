@@ -1,20 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-  <meta charset="UTF-8">
-  <title>Basic CSS Example</title>
-  <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Title</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <header id="main" class="title">
-    <h1>My CSS Page</h1>
-  </header>
-  <section class="box">
-    <h2>Main Section</h2>
-    <p class="description">Description with CSS styles.</p>
-  </section>
-  <footer>
-    <p>Author: David Cruz</p>
-  </footer>
+    <header>
+        <h1>PAGE TITLE</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <div class="left-section">
+                <div class="article-container">
+                    <div class="article">
+                        <h2>Article One</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin aliquot, nulla ac fermentum sollicitudin, massa suscipit facilisis felis, et consequat rutrum et eros vel elit. Duis rutrum vestibulum arcu eget eleifend. Etna imperdiet nisl. Ut hendrerit tempor enim, sit amet posuere mauris aliquet vel. Sed ut fringilla eros, eget porta quam est ac elit blandit tempor vel enim. Duis elementum erat ut dignisis.</p>
+                    </div>
+                </div>
+                
+                <div class="image-grid">
+                    <div class="image-container">
+                        <div class="image-box">
+                            <img src="Images/penguin.jpg" alt="Penguin">
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <div class="image-box">
+                            <img src="Images/jirafa.jpg" alt="Jirafa">
+                        </div>
+                    </div>
+                    <div class="image-container">
+                        <div class="image-box">
+                            <img src="Images/armadillo.jpg" alt="Armadillo">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sidebar">
+                <div class="projects-container">
+                    <div class="projects-title-box">
+                        <h3>Projects</h3>
+                    </div>
+                </div>
+                
+                <div class="projects-container">
+                    <div class="projects-list-box">
+                        <ul>
+                            <li><a href="#">January 2024</a></li>
+                            <li><a href="#">December 2023</a></li>
+                            <li><a href="#">November 2023</a></li>
+                            <li><a href="#">October 2023</a></li>
+                            <li><a href="#">September 2023</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2024 My Webpage | <a href="#">Privacy Policy</a></p>
+    </footer>
 </body>
 </html>
